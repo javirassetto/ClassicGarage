@@ -6,6 +6,7 @@ Aplicación web desarrollada en ASP.NET Core MVC, usando Entity Framework Core, 
 El sistema permite realizar ABM completo de marcas, tipos, modelos, categorías y vehículos. También gestiona ventas y repuestos, estableciendo relaciones entre las distintas entidades por medio de tablas intermedias.
 
 <h3>Incluye</h3>  
+
 •	Registros de usuarios.  
 •	Búsqueda y filtrado de vehículos por categoría (0 km o usados).   
 •	Carga de imágenes con previsualización antes de guardar.  
