@@ -1,0 +1,106 @@
+﻿@model IEnumerable<ProyectoFinal.Models.Vehiculo>
+
+@{
+    ViewData["Title"] = "Vehiculos";
+}
+
+<h1 class="text-center h1-text">Vehículos</h1>
+<br/>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 text-left">
+            <a asp-action="Create" class="btn btn-outline-dark">Crear Nuevo Vehiculo</a>
+        </div>
+        <div class="col-sm-4 text-center">
+            <a class="btn btn-primary" asp-area="" asp-controller="Vehiculo" asp-action="FiltrarPorCategoriaUsados">Vehículos Usados</a> |
+            <a class="btn btn-primary" asp-area="" asp-controller="Vehiculo" asp-action="FiltrarPorCategoriaNuevos">Vehículos 0km</a>
+        </div>
+    </div>
+</div>
+
+<br>
+@if (Model != null && Model.Any())
+{
+    <table class="table table-custom">
+        <thead class="thead-custom">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ImagenVehiculo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Marca)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Modelo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Tipo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Categoria)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ano)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Precio)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FechaRegistro)
+                </th>
+                <th>Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            @foreach (var item in Model) {
+                    <tr>
+                        <td>
+                            <img src="~/images/vehiculos/@item.ImagenVehiculo"
+                                    class="rounded-start"                        
+                                        asp-append-version="true"  />
+                            <br>
+                    
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Marca.Descripcion)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Modelo.Descripcion)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Tipo.Descripcion)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Categoria.Descripcion)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ano)
+                        </td>
+                        <td>
+                            $@Html.DisplayFor(modelItem => item.Precio)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.FechaRegistro)
+                        </td>
+                        <td>
+                            <p>
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Editar</a> <br/><br />
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-success">Detalle</a> <br/><br />
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Eliminar</a>
+                            </p>
+                        </td>
+                    </tr>
+            }
+         </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-primary">
+        <h4 class="alert-heading">No hay Vehículos cargados</h4>
+        <p>Actualmente no hay Vehículos registrados en el sistema.</p>
+        <hr>
+        <p class="mb-0">Haz clic en "Crear Nuevo Vehículo" para agregar el primero.</p>
+    </div>
+}

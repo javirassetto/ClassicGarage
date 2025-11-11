@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Pruebas Proyecto";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Preview de imagenes</p>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="~/js/imagenes.js"></script>
+
+<img id="imagePreview" src="#" alt="Vista previa de la imagen" style="display: none; max-width: 150px; max-height: 150px;">
+<br/>
+<input type="file" id="inputFile" accept="image/*" onchange="previewImage(event)">
+
+customFile
+<script>
+    function previewImage(event) {
+        var input = event.target;
+        var reader = new FileReader();
+
+        reader.onload = function () {
+            var dataURL = reader.result;
+            var imagePreview = document.getElementById('imagePreview');
+            imagePreview.src = dataURL;
+            imagePreview.style.display = 'block';
+        };
+
+        reader.readAsDataURL(input.files[0]);
+    }
+</script>

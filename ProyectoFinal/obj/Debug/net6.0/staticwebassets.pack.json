@@ -1,0 +1,353 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ProyectoFinal.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProyectoFinal.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\archivos\\ListaDeRepuestos.xlsx",
+      "PackagePath": "staticwebassets\\archivos\\ListaDeRepuestos.xlsx"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\classicGarage.ico",
+      "PackagePath": "staticwebassets\\classicGarage.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\ClasiccGarage.png",
+      "PackagePath": "staticwebassets\\images\\ClasiccGarage.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\classicGarage.png",
+      "PackagePath": "staticwebassets\\images\\classicGarage.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\vehiculos\\03af95ed-45ef-4c73-8c4b-84e9a0465f01_Hilux.jpg",
+      "PackagePath": "staticwebassets\\images\\vehiculos\\03af95ed-45ef-4c73-8c4b-84e9a0465f01_Hilux.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\vehiculos\\08fd9e86-317a-4409-957d-298e97534e0c_GrandCherokee.png",
+      "PackagePath": "staticwebassets\\images\\vehiculos\\08fd9e86-317a-4409-957d-298e97534e0c_GrandCherokee.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\vehiculos\\0958a49c-7ede-41eb-992c-34ea74d5afbe_golTrend.jpg",
+      "PackagePath": "staticwebassets\\images\\vehiculos\\0958a49c-7ede-41eb-992c-34ea74d5afbe_golTrend.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\vehiculos\\0d52ad1a-b4b0-4549-abf3-d4aad99c187c_GrandCherokee.png",
+      "PackagePath": "staticwebassets\\images\\vehiculos\\0d52ad1a-b4b0-4549-abf3-d4aad99c187c_GrandCherokee.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\vehiculos\\155f1d02-2747-4cc0-a574-c470529ae3a3_Territory.jpg",
+      "PackagePath": "staticwebassets\\images\\vehiculos\\155f1d02-2747-4cc0-a574-c470529ae3a3_Territory.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\vehiculos\\26f401c7-4957-4937-b331-7169d66ddf0f_GrandCherokee.png",
+      "PackagePath": "staticwebassets\\images\\vehiculos\\26f401c7-4957-4937-b331-7169d66ddf0f_GrandCherokee.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\vehiculos\\32ec95e6-7ea3-4f15-a87b-d438156fa5f3_Hilux.jpg",
+      "PackagePath": "staticwebassets\\images\\vehiculos\\32ec95e6-7ea3-4f15-a87b-d438156fa5f3_Hilux.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\vehiculos\\33d6ee14-bb4e-4220-add9-8ca919cb3d54_Hilux.jpg",
+      "PackagePath": "staticwebassets\\images\\vehiculos\\33d6ee14-bb4e-4220-add9-8ca919cb3d54_Hilux.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\vehiculos\\3ea32b11-2232-49d6-8e6f-b7025da842ee_Hilux.jpg",
+      "PackagePath": "staticwebassets\\images\\vehiculos\\3ea32b11-2232-49d6-8e6f-b7025da842ee_Hilux.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\vehiculos\\5151574d-7830-4e7e-9d16-966c3c711e7e_GrandCherokee.png",
+      "PackagePath": "staticwebassets\\images\\vehiculos\\5151574d-7830-4e7e-9d16-966c3c711e7e_GrandCherokee.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\vehiculos\\973d25d4-6ecf-4dbd-8378-f21f2a3ce679_Hilux.jpg",
+      "PackagePath": "staticwebassets\\images\\vehiculos\\973d25d4-6ecf-4dbd-8378-f21f2a3ce679_Hilux.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\vehiculos\\af320ffc-a495-438d-91de-195c4f030479_Territory.jpg",
+      "PackagePath": "staticwebassets\\images\\vehiculos\\af320ffc-a495-438d-91de-195c4f030479_Territory.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\vehiculos\\ce47dfe5-838d-4589-861b-d134afcb38f2_GrandCherokee.png",
+      "PackagePath": "staticwebassets\\images\\vehiculos\\ce47dfe5-838d-4589-861b-d134afcb38f2_GrandCherokee.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\vehiculos\\cebc603f-3bb1-4bcf-97b0-1be35b922da2_Territory.jpg",
+      "PackagePath": "staticwebassets\\images\\vehiculos\\cebc603f-3bb1-4bcf-97b0-1be35b922da2_Territory.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\vehiculos\\d1e26a0f-fc19-4411-b1fe-820b6202a34c_GrandCherokee.png",
+      "PackagePath": "staticwebassets\\images\\vehiculos\\d1e26a0f-fc19-4411-b1fe-820b6202a34c_GrandCherokee.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\vehiculos\\e82a854d-a98b-4cc4-87d1-c76ce58e5b93_golTrend.jpg",
+      "PackagePath": "staticwebassets\\images\\vehiculos\\e82a854d-a98b-4cc4-87d1-c76ce58e5b93_golTrend.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\images\\vehiculos\\e8d760f9-b721-4c0a-a649-5c6420d8282e_GrandCherokee.png",
+      "PackagePath": "staticwebassets\\images\\vehiculos\\e8d760f9-b721-4c0a-a649-5c6420d8282e_GrandCherokee.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\js\\imagenes.js",
+      "PackagePath": "staticwebassets\\js\\imagenes.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Tec. en Programación. 2023\\2° Cuatrimestre\\LABORATORIO DE COMPUTACIÓN IV\\AutoCar\\ProyectoFinal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ProyectoFinal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ProyectoFinal.props",
+      "PackagePath": "build\\ProyectoFinal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ProyectoFinal.props",
+      "PackagePath": "buildMultiTargeting\\ProyectoFinal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ProyectoFinal.props",
+      "PackagePath": "buildTransitive\\ProyectoFinal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

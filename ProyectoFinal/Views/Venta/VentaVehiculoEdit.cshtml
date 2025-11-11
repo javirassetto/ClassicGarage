@@ -1,0 +1,19 @@
+﻿@model ProyectoFinal.Models.VentaVehiculo
+
+@{
+    var index = (int)ViewData["Index"];
+    var vehiculoIdList = (SelectList)ViewData["VehiculoId"];
+}
+
+<div class="vehiculo mb-3">
+    <label>Seleccione un Vehículo</label>
+    @Html.DropDownList($"Vehiculos[{index}].VehiculoId", vehiculoIdList,
+    "-- Seleccione un vehículo --",
+    new { @class = "form-control" })
+
+    <label>Precio Detalle</label>
+    @Html.TextBox($"Vehiculos[{index}].PrecioDetalle", Model.PrecioDetalle, new { @class = "form-control" })
+
+    <label>Orden</label>
+    @Html.TextBox($"Vehiculos[{index}].Orden", Model.Orden, new { @class = "form-control" })
+</div>

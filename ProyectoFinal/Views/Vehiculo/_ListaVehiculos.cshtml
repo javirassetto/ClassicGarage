@@ -1,0 +1,105 @@
+﻿@model IEnumerable<ProyectoFinal.Models.Vehiculo>
+
+@{
+    ViewData["Title"] = "Lista Vehiculos";
+    var categoria = Model.FirstOrDefault()?.Categoria?.Descripcion;
+}
+
+@if (!string.IsNullOrEmpty(categoria))
+{
+    <h1 style="color: #084298;">Lista Vehiculos Seleccionados: @categoria/s</h1>
+
+    <table class="table table-custom">
+        <thead class="thead-custom">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ImagenVehiculo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Marca)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Modelo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Tipo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Categoria)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ano)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Precio)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FechaRegistro)
+                </th>
+                <th>Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <img src="~/images/vehiculos/@item.ImagenVehiculo"
+                             class="rounded-start"
+                             asp-append-version="true" />
+                        <br>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Marca.Descripcion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Modelo.Descripcion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tipo.Descripcion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Categoria.Descripcion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ano)
+                    </td>
+                    <td>
+                        $@Html.DisplayFor(modelItem => item.Precio)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaRegistro)
+                    </td>
+                    <td>
+                        <p>
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Editar</a> <br /><br />
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-success">Detalle</a> <br /><br />
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Eliminar</a>
+                        </p>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+
+
+    </table>
+}
+else
+{
+    
+    <div class="alert alert-primary">
+        <h1>No se encontraron vehiculos</h1>
+        <h4 class="alert-heading">           
+            Actualmente no hay vehiculos registrados con la categoria seleccionada.
+        </h4>       
+      
+    </div>
+}
+<p>
+    <div class="row">
+        <div class="col-sm text-center">
+            <a class="btn btn-secondary" asp-action="Index">Volver</a>
+        </div>
+    </div>
+</p>

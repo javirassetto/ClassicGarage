@@ -1,0 +1,74 @@
+﻿@model ProyectoFinal.Models.Venta
+
+@{
+    ViewData["Title"] = "Detalle";
+}
+
+<h1 class="h1-text">Detalle</h1>
+
+<div>
+    <h4>Venta</h4>
+    <hr />
+    <table class="table table-custom">
+        
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FechaRegistro)</th>
+            <td>@Html.DisplayFor(model => model.FechaRegistro)</td>
+        </tr>
+        
+    </table>
+    <table class="table table-custom">
+        <thead class="thead-custom">
+            <tr>
+                <th>Imagen</th>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Año</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var vehiculo in Model.Vehiculos)
+            {               
+                <tr>
+                    <td>
+                        <img src="~/images/vehiculos/@vehiculo.Vehiculo.ImagenVehiculo"
+                             class="rounded-start"
+                             style="max-width:150px; height:auto;"
+                             asp-append-version="true" />
+                    </td>
+                    <td>@vehiculo.Vehiculo.Marca.Descripcion</td>
+                    <td>@vehiculo.Vehiculo.Modelo.Descripcion</td>
+                    <td>@vehiculo.Vehiculo.ano</td>
+                    <td><span>$</span> @vehiculo.Vehiculo.Precio</td>
+                </tr>
+            }
+
+            <tr>
+                <td colspan="4" class="text-end"><strong>Total detalle de la venta:</strong></td>
+                <td>
+                    <strong>
+                        @* $@Model.Vehiculos.Sum(v => v.Vehiculo.Precio) *@
+                        $@Model.Vehiculos.Sum(vv => vv.Vehiculo.Precio ?? 0).ToString("N2")
+                    </strong>
+                </td>
+            </tr>
+
+        </tbody>
+     
+    </table>
+</div>
+
+<form asp-action="Details">
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Editar</a> | 
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script type="text/javascript">
+        $(function () { $('#form :input').attr("disabled", true); });
+    </script>
+}
