@@ -1,0 +1,79 @@
+﻿@model ProyectoFinal.Models.Venta
+
+@{
+    ViewData["Title"] = "Eliminar Venta";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="h1-text">Eliminar Venta</h1>
+
+<div>
+    <table class="table">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FechaRegistro)</th>
+            <td>@Html.DisplayFor(model => model.FechaRegistro)</td>
+        </tr>
+
+        <tr>
+            <th>Marca</th>
+            <td>
+                <table>
+                    @foreach (var vehiculo in Model.Vehiculos)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => vehiculo.Vehiculo.Marca.Descripcion)</td>
+                        </tr>
+                    }
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Modelo</th>
+            <td>
+                <table>
+                    @foreach (var vehiculo in Model.Vehiculos)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => vehiculo.Vehiculo.Modelo.Descripcion)</td>
+                        </tr>
+                    }
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <th>Año</th>
+            <td>
+                <table>
+                    @foreach (var vehiculo in Model.Vehiculos)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => vehiculo.Vehiculo.ano)</td>
+                        </tr>
+                    }
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Precio</th>
+            <td>
+                <table>
+                    @foreach (var vehiculo in Model.Vehiculos)
+                    {
+                        <tr>
+                            <td><span>$</span> @Html.DisplayFor(modelItem => vehiculo.Vehiculo.Precio)</td>
+                        </tr>
+                    }
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> | 
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>
+

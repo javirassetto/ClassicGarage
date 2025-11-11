@@ -1,0 +1,139 @@
+﻿@model ProyectoFinal.ViewModels.VehiculoViewModels
+@{
+    ViewData["Title"] = "Editar";
+}
+
+<h1 class="h1-text">Editar</h1>
+
+<h4>Vehiculo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form enctype="multipart/form-data" asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="ImagenVehiculo" />
+            <div class="form-group">
+                <dd class="col-sm-10">
+                    <img src="~/images/vehiculos/@Model.ImagenVehiculo"
+                         id="imagePreview"
+                         class="rounded-start"
+                         asp-append-version="true" />
+                    <br>
+                </dd>
+                <label asp-for="Imagen" class="control-label fw-bold"></label>
+                <div class="custom-file">
+                    <input asp-for="Imagen" class="custom-file-input" id="customFile">
+                   @*  <label class="custom-file-label" for="customFile">Seleccione el archivo</label> *@
+                </div>
+                <span asp-validation-for="Imagen" class="text-danger"></span>
+            </div>           
+
+            <div class="form-group">
+                <label asp-for="MarcaId" class="control-label fw-bold"></label>
+                <select asp-for="MarcaId" class="form-control" asp-items="ViewBag.MarcaId" id="MarcaSelect"></select>
+                <span asp-validation-for="MarcaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModeloId" class="control-label fw-bold"></label>
+                <select asp-for="ModeloId" class="form-control" id="ModeloSelect"></select>
+                <span asp-validation-for="ModeloId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="TipoId" class="control-label fw-bold"></label>
+                <select asp-for="TipoId" class="form-control" asp-items="ViewBag.TipoId"></select>
+                <span asp-validation-for="TipoId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoriaId" class="control-label fw-bold"></label>
+                <select asp-for="CategoriaId" class="form-control" asp-items="ViewBag.CategoriaId"></select>
+                <span asp-validation-for="CategoriaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ano" class="control-label fw-bold"></label>
+                <input asp-for="ano" class="form-control" />
+                <span asp-validation-for="ano" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Precio" class="control-label fw-bold"></label>
+                <input asp-for="Precio" class="form-control" />
+                <span asp-validation-for="Precio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaRegistro" class="control-label fw-bold"></label>
+                <input asp-for="FechaRegistro" class="form-control" id="inputCosto" step="any" />
+                <span asp-validation-for="FechaRegistro" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" /> |
+                <a asp-action="Index" class="btn btn-secondary">Volver</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script type="text/javascript">
+        // el siguiente código hace referencia a si desea que el nombre del archivo aparezca en la selección
+        $(".custom-file-input").on("change", function () {
+            var fileName = $(this).val().split("\\").pop();
+            $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+            // Previsualizar nueva imagen seleccionada
+            if (this.files && this.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('#imagePreview').attr('src', e.target.result);
+                }
+                reader.readAsDataURL(this.files[0]);
+            }
+        });
+
+
+        $(document).ready(function () {
+            var marcaId = $("#MarcaSelect").val();
+            var modeloIdSeleccionado = '@Model.ModeloId';
+
+            if (marcaId) {
+                $.getJSON('@Url.Action("GetModelosByMarca", "Vehiculo")', { marcaId: marcaId }, function (data) {
+                    $("#ModeloSelect").append('<option value="">Seleccione un modelo</option>');
+                    $.each(data, function (i, modelo) {
+                        var selected = modelo.id == modeloIdSeleccionado ? "selected" : "";
+                        $("#ModeloSelect").append('<option value="' + modelo.id + '" ' + selected + '>' + modelo.descripcion + '</option>');
+                    });
+                });
+            }
+
+            $("#MarcaSelect").change(function () {
+                var marcaId = $(this).val();
+                $("#ModeloSelect").empty();
+
+                if (marcaId) {
+                    $.getJSON('@Url.Action("GetModelosByMarca", "Vehiculo")', { marcaId: marcaId }, function (data) {
+                        $("#ModeloSelect").append('<option value="">Seleccione un modelo</option>');
+                        $.each(data, function (i, modelo) {
+                            $("#ModeloSelect").append('<option value="' + modelo.id + '">' + modelo.descripcion + '</option>');
+                        });
+                    });
+                } else {
+                    $("#ModeloSelect").append('<option value="">Seleccione una marca primero</option>');
+                }
+            });
+        });
+        $("#inputCosto").on({
+            "focus": function (event) {
+                $(event.target).select();
+            },
+            "keyup": function (event) {
+                $(event.target).val(function (index, value) {
+                    return value.replace(/\D/g, "")
+                        .replace(/([0-9])([0-9]{2})$/, '$1,$2')
+                        .replace(/\B(?=(\d{3})+(?!\d)\,?)/g, ".");
+                });
+            }
+        });
+
+    </script>   
+}

@@ -1,0 +1,54 @@
+﻿@model IEnumerable<ProyectoFinal.Models.Tipo>
+
+@{
+    ViewData["Title"] = "Tipos";
+}
+
+<h1 class="h1-text">Tipos</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Nuevo Tipo</a>
+</p>
+@if (Model != null && Model.Any())
+{
+    <table class="table table-custom">
+        <thead class="thead-custom">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Descripcion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FechaRegistro)
+                </th>
+                <th>Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaRegistro)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-success">Detalle</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-primary">
+        <h4 class="alert-heading">No hay tipos cargados</h4>
+        <p>Actualmente no hay tipos registrados en el sistema.</p>
+        <hr>
+        <p class="mb-0">Haz clic en "Crear Nuevo Tipo" para agregar el primero.</p>
+    </div>
+}

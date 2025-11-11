@@ -1,0 +1,136 @@
+﻿@model IEnumerable<ProyectoFinal.Models.Repuesto>
+
+@{
+    ViewData["Title"] = "Repuestos";
+}
+
+<h1 class="text-center h1-text">Lista de Repuestos</h1>
+
+
+<div class="container">
+    <div class="col-sm">   
+        <a asp-action="Create" class="btn btn-outline-primary">Nuevo Repuesto</a>
+    </div>
+</div>
+<br/>
+<div class="container">
+    <div class="col-sm">      
+        <a class="btn btn-outline-success" asp-area="" asp-controller="Repuesto" asp-action="ImportarRepuestos">Importar Lista</a>
+    </div>
+</div>
+<br/>
+@if (Model != null && Model.Any())
+{
+    <table class="table table-custom">
+        <thead class="thead-custom">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Marca)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Costo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cantidad)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FechaRegistro)
+                </th>
+                <th>Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Marca.Descripcion)
+                    </td>
+                    <td>
+                        $@Html.DisplayFor(modelItem => item.Costo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Cantidad)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaRegistro)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Editar</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-success">Detalle</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-primary">
+        <h4 class="alert-heading">No hay Repuestos cargados</h4>
+        <p>Actualmente no hay repuestos registrados en el sistema.</p>
+        <hr>
+        <p class="mb-0">Haz clic en "Crear Nuevo Repuestos" para agregar el primero.</p>
+    </div>
+}
+ @section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+
+        function mostrarDatos() {
+            const input = document.getElementById("inputExcel")
+
+            const formData = new FormData()
+
+            formData.append("ArchivoExcel", input.files[0])
+
+            fetch("/Repuesto/MostrarDatos",
+                {
+                    method: "POST",
+                    body: formData
+                })
+                .then((response) => { return response.json() })
+                .then((dataJson) => {
+                    dataJson.forEach((item) => {
+                        $("#tbData tbody").append(
+                            $("<tr>").append(
+                                $("<td>").text(item.Nombre),
+                                $("<td>").text(item.MarcaId),
+                                $("<td>").text(item.Costo),
+                                $("<td>").text(item.Cantidad),
+                                $("<td>").text(item.FechaRegistro)
+                            )
+                        )
+                    })
+                })
+        }
+
+
+        function enviarDatos() {
+            const input = document.getElementById("inputExcel")
+
+            const formData = new FormData()
+
+            formData.append("ArchivoExcel", input.files[0])
+
+            fetch("Respuesto/EnviarDatos", {
+                method: "POST",
+                body: formData
+            })
+                .then((response) => { return response.json() })
+                .then((dataJson) => {
+                    alert(dataJson.mensaje);
+                })
+        }
+
+    </script>
+    }

@@ -1,0 +1,149 @@
+﻿@model ProyectoFinal.Models.Repuesto
+
+@{
+    ViewData["Title"] = "Importar Lista";
+}
+
+<div class="row">
+    <div class="col-sm-12">
+
+        <div class="card">
+            <div class="card-header"> <strong>Importar Lista Repuestos</strong></div>
+            <div class="card-body">
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <input class="form-control-file" type="file" id="inputExcel" />
+                        <span class="text-danger" id="errorFile"></span>
+                    </div>
+                    <div class="col-sm-6">
+                        <button class="btn btn-outline-primary" onclick="mostrarDatos();">Cargar</button>
+                        <button class="btn btn-outline-danger" onclick="limpiarDatos();">Limpiar </button>
+                        <button class="btn btn-outline-success" onclick="enviarDatos();">Importar</button>
+                    </div>
+
+                    <div class="col-sm-2">
+
+                        <a class="btn btn-outline-success" asp-action="DownloadFile">Descargar</a>
+
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="text-danger" id="importStatus"></span>
+                        <table id="tbData" class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Marca</th>
+                                    <th>Costo</th>
+                                    <th>Cantidad</th>                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<p>
+    <div class="row">
+        <div class="col-sm">
+            <a class="btn btn-secondary" asp-action="Index">Volver</a>
+        </div>
+    </div>
+</p>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+
+        function mostrarDatos() {
+            const input = document.getElementById("inputExcel")
+            if (input.files[0] != null) {
+                document.getElementById("errorFile").textContent = "";
+                document.getElementById("importStatus").textContent = "";
+                const formData = new FormData()
+                formData.append("ArchivoExcel", input.files[0])
+                fetch("/Repuesto/MostrarDatos",
+                {
+                    method: "POST",
+                    body: formData
+                })
+                .then((response) => { return response.json() })
+                .then((dataJson) => {
+                        dataJson.forEach((item) => {
+                            $("#tbData tbody").append(
+                                $("<tr>").append(
+                                    $("<td>").text(item.nombre),
+                                    $("<td>").text(item.marcaId),
+                                    $("<td>").text(item.costo),
+                                    $("<td>").text(item.cantidad),                                  
+                                    
+                                )
+                            )
+                        })
+                })
+            } else {
+                document.getElementById("errorFile").textContent = "Seleccionar un archivo Excel";
+                document.getElementById("importStatus").textContent = "";
+
+            }
+
+        }
+
+
+        function enviarDatos() {
+            const input = document.getElementById("inputExcel")
+            if (input.files[0] != null && $('#tbData tbody tr').length > 0) {
+                const formData = new FormData()
+
+                formData.append("ArchivoExcel", input.files[0])
+
+                fetch("/Repuesto/EnviarDatos", {
+                    method: "POST",
+                    body: formData
+                })
+                    .then((response) => { return response.json() })
+                    .then((dataJson) => {
+                        $("#tbData tbody tr").remove();
+                        document.getElementById("importStatus").textContent = "Registros importados con éxito!";
+                    })
+            }
+            else {
+
+                document.getElementById("errorFile").textContent = "Seleccionar un archivo Excel y cargalo en la grilla";
+                document.getElementById("importStatus").textContent = "";
+
+            }
+
+        }
+
+
+        function limpiarDatos() {
+
+            if ($('#tbData tbody tr').length > 0) {
+                $("#tbData tbody tr").remove();
+            }
+            else {
+                document.getElementById("errorFile").textContent = "";
+                document.getElementById("importStatus").textContent = "No hay registros para limpiar!";
+            }
+
+        }
+
+
+
+    </script>
+    }

@@ -1,0 +1,120 @@
+﻿@model ProyectoFinal.Models.Venta
+
+@{
+    ViewData["Title"] = "Editar";
+    
+}
+
+
+<h1 class="h1-text">Editar</h1>
+
+<h4>Venta</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group">
+                <label asp-for="FechaRegistro" class="control-label fw-bold"></label>
+                <input asp-for="FechaRegistro" class="form-control" />
+                <span asp-validation-for="FechaRegistro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @for (int i = 0; i < Model.Vehiculos.Count; i++)
+                {
+                    <div class="form-group">
+                        <hr>
+                        <label class="control-label fw-bold">Vehículo N°@(i + 1)</label>                        
+                        @Html.DropDownList(
+                        $"Vehiculos[{i}].VehiculoId",
+                        new SelectList((IEnumerable<SelectListItem>)ViewData["VehiculoId"], "Value", "Text", Model.Vehiculos[i].VehiculoId),
+                        new { @class = "form-control col-md-40" }
+                        )
+                        <input type="hidden" name="Vehiculos[@i].Id" value="@Model.Vehiculos[i].Id" />
+                        
+                    </div>
+                }
+            </div>
+          @*   <div class="form-row">
+                <div class="form-group col-md-6">
+                    </br>
+                    <input class="btn btn-success" type="button" id="btnAdd" value="+ Agregar Vehiculo" />
+                </div>
+            </div>
+            <div class="form-row">
+                <div id="VentaVehiculoContainer" class="form-group col-md-2">
+                    @Html.EditorFor(model => model.Vehiculos)
+
+                </div>
+            </div> *@
+            @* <div class="form-row">
+                <div id="VentaVehiculoContainer" class="form-group col-md-6">
+                    @Html.EditorFor(model => model.Vehiculos)
+                </div>
+            </div>
+            <br /> *@
+            @* <div class="form-row">
+                <div id="VentaVehiculoContainer" class="form-group col-md-6">
+                   
+                    @for (int i = 0; i < Model.Vehiculos.Count; i++)
+                    {
+                        <div class="vehiculo mb-3">
+                            <label>Seleccione un Vehículo</label>
+                            @Html.DropDownListFor(model => model.Vehiculos[i].VehiculoId,
+                            (SelectList)ViewData["VehiculoId"],
+                            "-- Seleccione un vehículo --",
+                            new { @class = "form-control" })
+
+                            <label>Marca</label>
+                            <input value="@Model.Vehiculos[i].Vehiculo?.Marca?.Descripcion" class="form-control" readonly />
+
+                            <label>Modelo</label>
+                            <input value="@Model.Vehiculos[i].Vehiculo?.Modelo?.Descripcion" class="form-control" readonly />
+
+                            <label>Precio</label>
+                            <input value="@Model.Vehiculos[i].Vehiculo?.Precio?.ToString("N2")" class="form-control" readonly />
+                        </div>
+                    }
+
+                </div>
+            </div> *@
+            <br/>
+
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" /> |
+                <a asp-action="Index" class="btn btn-secondary">Volver</a> | 
+                <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">Eliminar</a>
+            </div>
+            <br/>
+            <div>
+                
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script type="text/javascript">
+        $("#btnAdd").on('click', function () {
+            $.ajax({
+                async: true,
+                data: $('#form').serialize(),
+                type: "POST",
+                url: '/Venta/VentaVehiculo',
+                success: function (partialView) {
+                    console.log("partialView: " + partialView);
+                    $('#VentaVehiculoContainer').html(partialView);
+                }
+            });
+        });
+    </script>
+
+
+}
+

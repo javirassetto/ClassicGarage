@@ -1,0 +1,237 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProyectoFinal
+build_property.RootNamespace = ProyectoFinal
+build_property.ProjectDir = C:\Users\Admin\Desktop\Tec. en Programación. 2023\2° Cuatrimestre\LABORATORIO DE COMPUTACIÓN IV\AutoCar\ProyectoFinal\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\Tec. en Programación. 2023\2° Cuatrimestre\LABORATORIO DE COMPUTACIÓN IV\AutoCar\ProyectoFinal
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Categoria/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Categoria/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Categoria/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Categoria/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Categoria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Marca/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Marca/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Marca/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Marca/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Marca/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Modelo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Modelo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Modelo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Modelo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Modelo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Repuesto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwdWVzdG9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Repuesto/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwdWVzdG9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Repuesto/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwdWVzdG9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Repuesto/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwdWVzdG9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Repuesto/ImportarRepuestos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwdWVzdG9cSW1wb3J0YXJSZXB1ZXN0b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Repuesto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwdWVzdG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Shared/EditorTemplates/VentaVehiculo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xWZW50YVZlaGljdWxvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Tipo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Tipo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Tipo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Tipo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Tipo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Vehiculo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Vehiculo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Vehiculo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Vehiculo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Vehiculo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Vehiculo/_ListaVehiculos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9cX0xpc3RhVmVoaWN1bG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Venta/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Venta/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Venta/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Venta/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Venta/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Venta/VentaVehiculo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcVmVudGFWZWhpY3Vsby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Venta/VentaVehiculoEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcVmVudGFWZWhpY3Vsb0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Tec. en Programación. 2023/2° Cuatrimestre/LABORATORIO DE COMPUTACIÓN IV/AutoCar/ProyectoFinal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ww5h623m21

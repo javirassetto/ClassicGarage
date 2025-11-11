@@ -1,0 +1,115 @@
+﻿@model IEnumerable<ProyectoFinal.Models.Venta>
+
+@{
+    ViewData["Title"] = "Ventas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="h1-text">Ventas</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Nueva Venta</a>
+</p>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-custom">
+        <thead class="thead-custom">
+            <tr class="trVenta">
+
+                <th>
+                    @Html.DisplayNameFor(model => model.FechaRegistro)
+                </th>
+                <th>
+                    Marca
+                </th>
+                <th>
+                    Modelo
+                </th>
+                <th>
+                    Año
+                </th>
+                <th>
+                    Precio
+                </th>
+                <th>Opciones</th>
+            </tr>
+
+            <tr>
+                @Html.DisplayNameFor(model => model.PrecioVenta)
+            </tr>
+
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaRegistro)
+                    </td>
+                    <td>
+                        @foreach (var vehiculo in item.Vehiculos)
+                        {
+
+                            @Html.DisplayFor(modelItem => vehiculo.Vehiculo.Marca.Descripcion)
+                            <br/>
+
+                        }
+                    </td>
+                    <td>
+                        @foreach (var vehiculo in item.Vehiculos)
+                        {
+                            @Html.DisplayFor(modelItem => vehiculo.Vehiculo.Modelo.Descripcion)
+                            <br/>
+                        }
+                    </td>
+                    <td>
+                        @foreach (var vehiculo in item.Vehiculos)
+                        {
+                            @Html.DisplayFor(modelItem => vehiculo.Vehiculo.ano)
+                            <br />
+                        }
+
+                    </td>
+
+                    <td>
+                        @foreach (var vehiculo in item.Vehiculos)
+                        {
+                            <span>$</span> @Html.DisplayFor(modelItem => vehiculo.Vehiculo.Precio)
+                            <br />
+                        }
+
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Editar</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-success">Detalle</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Eliminar</a>
+                    </td>
+                </tr>
+            }
+            <tr>
+                <td>
+                    <strong>Total:</strong>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <strong>$@Model.Sum(v => v.PrecioVenta ?? 0).ToString("N2")</strong>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-primary">
+        <h4 class="alert-heading">No hay ventas cargadas</h4>
+        <p>Actualmente no hay ventas registradas en el sistema.</p>
+        <hr>
+        <p class="mb-0">Haz clic en "Crear Nueva Venta" para agregar la primera.</p>
+    </div>
+}

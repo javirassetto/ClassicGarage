@@ -1,0 +1,226 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+/*.table {
+    font-family:Arial
+}*/
+.table-custom {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 50%, #ffffff 100%);
+    border: 1px solid #dee2e6;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-family: Arial
+}
+
+.thead-custom {
+    background: linear-gradient(135deg, #6c757d 0%, #495057 50%, #343a40 100%);
+    color: #ffffff;
+}
+
+.thead-custom th {
+    border-bottom: 2px solid #495057;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    color:whitesmoke;
+}
+
+.table-custom tbody tr {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 50%, #e9ecef 100%);
+    transition: all 0.3s ease;
+}
+
+.table-custom tbody tr:nth-child(even) {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 50%, #f1f3f4 100%);
+}
+
+.table-custom tbody tr:hover {
+    background: linear-gradient(135deg, #e9ecef 0%, #f8f9fa 50%, #ffffff 100%);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transform: translateY(-1px);
+}
+
+.table-custom td {
+    border-top: 1px solid #dee2e6;
+    padding: 12px 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+td {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.alert-primary {
+    background-color: #f8fbff;
+    
+    /*opacity: 1.0;*/
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+header {
+    background-color: #f5f6f8;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #f8f9fa;
+}
+.divprincipal {
+    background-color:ghostwhite;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+.h1-text {
+    color: #084298;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+btn btn-info {
+    background-color: #2C3E50; /* Negro */
+    color: #E74C3C; /* Rojo oscuro */
+}
+.trVenta {
+    border-block-end: medium;
+    color: black;
+}
+dd {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Imagen index vehiculos*/
+.rounded-start {
+   max-height: 150px;
+   max-width: 150px;
+   border: 2px solid black;
+}
+/*ImagenPrevia*/
+.ImagenPrevia {
+    display: none;
+    max-width: 150px;
+    max-height: 150px;
+    border: 1px solid black
+}
+/*Botones Principales*/
+
+/*Login y register*/
+#login-submit {
+    background-color: #1a1a2e;
+    color: #dddddd;
+}
+#login-submit:hover {
+    background-color:midnightblue;
+    color: #dddddd;
+    cursor: pointer;
+}
+#registerSubmit {
+    background-color: #1a1a2e;
+    color: #dddddd;
+}
+#registerSubmit:hover {
+    background-color: midnightblue;
+    color: #dddddd;
+    cursor: pointer;
+}
+/*debajo de inicio sesion*/
+.fw-bold a {
+    text-decoration: none !important;
+}
+.navbar-nav .nav-link{
+ font-weight: bold;
+}
+.navbar-nav .nav-link:hover {
+    /*text-decoration: underline;*/
+    transform: scale(1.1);
+    color: #007bff !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+ 
+}
+.btn.btn-secondary.dropdown-toggle {
+    background-color: #1a1a2e;
+    color:cornflowerblue;
+    font-family: Courier New;
+    margin-right: 30px
+
+}
+.btn.btn-secondary.dropdown-toggle:hover {
+    color: white !important;
+}
+
+.dropdown-menu {
+    background-color: darkgray;
+}
+.dropdown-menu:hover {
+    /* background-color: #f2f2f2;*/
+    transform: scale(1.1);
+    background-color: steelblue !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-family: Arial;
+    
+}
+
+.logomiddle {
+    width: 210px;
+    height: auto;
+    border: 2px solid #003366;
+}
+
+.logomiddle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 51, 102, 0.3);
+    border-color: #0066cc;
+}
+
+/* div border-animated*/
+.border-animated {
+    position: relative;
+    background-color: #f2f2f2;
+    border: 3px solid #003366;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 1rem;
+}
+    
+.border-animated::before,
+.border-animated::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #003366;
+    top:0;
+    left:0;
+    pointer-events: none;
+    animation: moveBorder 10s linear infinite;
+}
+    
+.border-animated::after {
+    animation-delay: 0s;
+}
+
+@keyframes moveBorder {
+    0% {
+        clip-path: polygon(0 0, 100% 0, 100% 3px, 0 3px);
+    }
+
+    25% {
+        clip-path: polygon(100% 0, 100% 100%, calc(100% - 3px) 100%, calc(100% - 3px) 0);
+    }
+
+    50% {
+        clip-path: polygon(100% 100%, 0 100%, 0 calc(100% - 3px), 100% calc(100% - 3px));
+    }
+
+    75% {
+        clip-path: polygon(0 100%, 0 0, 3px 0, 3px 100%);
+    }
+
+    100% {
+        clip-path: polygon(0 0, 100% 0, 100% 3px, 0 3px);
+    }
+}
